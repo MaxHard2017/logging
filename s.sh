@@ -1,1 +1,0 @@
-./edit.sh ~/projects/src/test.txt LaLALA FAFA

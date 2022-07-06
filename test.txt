@@ -1,7 +1,0 @@
-FAFA 
-
-FAFA
-
-one
-To FAFA to an existing branch, you run the git checkout command. Let’s switch to the new testing branch:
-You can easily see this by FAFA a simple
