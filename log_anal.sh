@@ -6,6 +6,7 @@ fi
 
 dir=$1
 lineNum=$(wc -l $dir | cut -d' ' -f1)
+echo Parsing change log: $dir
 echo Total records: $lineNum
 uniqNum=$(awk '{print $9}' $dir| uniq -u | wc -l)
 echo Unicue SHA: $uniqNum
