@@ -16,5 +16,5 @@ algorithm=$(openssl sha256 $dir | cut -d'(' -f1)
 echo 'In file:' $dir 
 echo 'Value <'$searchVal'> will be changed to  Value <'$newVal'>'
 
-sed -i 's/'$searchVal'/'$newVal'/' $dir
+sed -i s/"$searchVal"/"$newVal"/ $dir
 echo $dir' - '$size'byte - '$dateTime' - '$hash' - '$algorithm >> ./file.log

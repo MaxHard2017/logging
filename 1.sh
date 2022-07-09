@@ -1,2 +1,2 @@
 #! /bin/bash
-./edit1.sh ~/projects/src/t.txt conflicted DDDD
+./edit1.sh ~/projects/src/t.txt "WWWWW" "Fuck off, AI!!!!! You will be IA :)"
