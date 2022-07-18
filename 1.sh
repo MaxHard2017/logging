@@ -1,2 +1,2 @@
 #! /bin/bash
-./edit1.sh ~/projects/src/t.txt "WWWWW" "Fuck off, AI!!!!! You will be IA :)"
+./edit.sh ~/projects/src/t.txt ".|. (,)" "192.168.0.1"
