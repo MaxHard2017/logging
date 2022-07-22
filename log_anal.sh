@@ -7,11 +7,11 @@ i
 while [ -n "$1" ]
 do
     case "$1" in
-	-a) echo "Found the -a option";; # tbd -a option without parameter
+	-a) echo "Found the -a option";; # TBD -a option without parameter
 
-	-b) param="$2"                   #TBD -b option with parametr
+	-b) param="$2"                   # TBD -b option with parametr
 	    echo "Found the -b option, with parameter value $param"
-	    shift ;;
+	    shift ;;			# сдвиг 
 
 	--) shift
  	    break ;;
@@ -33,7 +33,7 @@ do
 done
 
 count=1
-for param in "$@" 		# цико вывода вхожных параметрой для дебага
+for param in "$@" 		# цикл вывода входных параметров - для дебага
 do
 #    echo "Parameter #$count: $param"
     count=$(( $count + 1 ))
