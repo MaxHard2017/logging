@@ -13,7 +13,7 @@
  - `compile.sh` - compiles given .c file using gcc compiler with some 
 default settings.
 
- - `**edit.sh**` - changes substring in selected file on given substring.
+ - **`edit.sh`** - changes substring in selected file on given substring.
 Changes are loged in the `file.log`.
 
  - file.log - log file with tracked changes, basicly for `t.txt`
@@ -24,7 +24,7 @@ Changes are loged in the `file.log`.
 
  - `./logs` - for testing logging
 
- - `**log_anal.sh**` - analyze `file.log` and shows total entryes, unique entryes and duplicates. It ananyze SHA suumm changes of a given file, t.txt file` for example.
+ - **`log_anal.sh`** - analyze `file.log` and shows total entryes, unique entryes and duplicates. It ananyze SHA suumm changes of a given file, t.txt file` for example.
 
  - `t.txt` - source text file for editing and testing the logging system.
 
@@ -32,4 +32,4 @@ Changes are loged in the `file.log`.
 
  - `vim_commands.md` - notes for VIM
 
- - `**writelog.sh**` - main tool for logging file changes. Could be exequted after some file was changed.
+ - **`writelog.sh`** - main tool for logging file changes. Could be exequted after some file was changed.
