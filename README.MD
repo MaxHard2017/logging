@@ -1,6 +1,6 @@
 # ./scr content
 
- - `file.fog` - logs of `edit.sh`.
+ - `file.log` - logs of `edit.sh`.
 
  - `1.sh` - launch file for `edit.sh`
 
@@ -18,8 +18,6 @@ Changes are loged in the `file.log`.
 
  - file.log - log file with tracked changes, basicly for `t.txt`
  
- - `git_commands` - notes while git studdy
-
  - `hello.c` - test source on C
 
  - `./logs` - for testing logging
